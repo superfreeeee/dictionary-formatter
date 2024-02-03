@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+  gap: 12px;
+}
+
+@media screen and (max-width: 800px) {
+  .container {
+    flex-direction: column;
+  }
+}
+
+.word {
+  border: 1px solid #000;
+  padding: 2px 4px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.preview .output {
+  border: 1px solid #000;
+  padding: 2px 4px;
+}

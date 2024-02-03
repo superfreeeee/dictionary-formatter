@@ -1,0 +1,20 @@
+.container {
+  margin: 20px 20px 0;
+  overflow: hidden;
+}
+
+.sourceInput {
+  width: 700px;
+}
+
+@media screen and (min-width: 575px) and (max-width: 900px) {
+  .sourceInput {
+    width: 450px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .sourceInput {
+    width: 350px;
+  }
+}
