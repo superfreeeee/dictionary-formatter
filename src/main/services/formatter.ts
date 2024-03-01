@@ -63,7 +63,7 @@ const formatData = (data: Record<string, string>[], template: string) => {
         }
         if (key === KEY_SENTENCE) {
           // word => ___
-          const word = data[KEY_WORD];
+          const word = item[KEY_WORD];
           return (item[key] as string).replace(new RegExp(word, 'i'), () => '_____');
         } else {
           // 直接返回

@@ -32,3 +32,8 @@ $ pnpm build:mac
 # For Linux
 $ pnpm build:linux
 ```
+
+## Trouble Shooting
+
+- mirror settings
+https://segmentfault.com/a/1190000040356146

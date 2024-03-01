@@ -11,10 +11,7 @@ export const getFormMemo = () => {
 };
 
 export const setFormMemo = (values: any) => {
-  localStorage.setItem(
-    LocalStorageKeys.MainExportEditorForm,
-    JSON.stringify(values),
-  );
+  localStorage.setItem(LocalStorageKeys.MainExportEditorForm, JSON.stringify(values));
 };
 
 export const cleanFormMemo = () => {
